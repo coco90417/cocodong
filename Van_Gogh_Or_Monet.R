@@ -1,5 +1,9 @@
-load_monet = function(path_to_monet, pixal, channel) {
+load_monet = function() {
 
+  path_to_monet = "./water-lilies-harmony-in-blue.jpg"
+  pixal = 70
+  channel = 3
+  
   monet <- image_load(path_to_monet, target_size = c(pixal, pixal)) %>%
     image_to_array()  %>%
     array_reshape(dim = c(1, pixal, pixal, channel), order = "C")/256

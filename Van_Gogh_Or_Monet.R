@@ -1,6 +1,6 @@
-load_water_lilies = function(path_to_water_lilies, pixal, channel) {
+load_monet = function(path_to_monet, pixal, channel) {
 
-  monet <- image_load(path_to_water_lilies, target_size = c(pixal, pixal)) %>%
+  monet <- image_load(path_to_monet, target_size = c(pixal, pixal)) %>%
     image_to_array()  %>%
     array_reshape(dim = c(1, pixal, pixal, channel), order = "C")/256
 

@@ -1,6 +1,6 @@
 ## to load the car, run this
 ## library(devtools)
-## source_url("https://raw.githubusercontent.com/coco90417/cocodong/master/load_cars.R")
+## source_url("https://raw.githubusercontent.com/coco90417/cocodong/master/Load_cars.R")
 ## cars = load_cars()
 
 library(tidyverse)

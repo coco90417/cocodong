@@ -1,3 +1,8 @@
+## to load monet, run this
+## library(devtools)
+## source_url("https://raw.githubusercontent.com/coco90417/cocodong/master/Load_cars.R")
+## monet = load_monet()
+
 load_monet = function() {
 
   path_to_monet = "./water-lilies-harmony-in-blue.jpg"

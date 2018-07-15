@@ -32,7 +32,9 @@ load_cars = function() {
         origin == 3 ~ "Japanese"
       ),
       origin = factor(origin)
-    ) 
+    ) %>%
+   na.omit()
+  
   return(cars)
 }
 
